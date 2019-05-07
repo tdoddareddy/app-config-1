@@ -2,6 +2,9 @@
   jpa:
     hibernate:
       ddl-auto: validate
+  spring:
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
 #      database: MYSQL
 #    properties:
 #      hibernate:
