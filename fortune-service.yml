@@ -2,17 +2,3 @@
   jpa:
     hibernate:
       ddl-auto: validate
-  spring:
-    datasource:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-    cloud:
-      config:
-        discovery:
-          enabled: true
-#      database: MYSQL
-#    properties:
-#      hibernate:
-#        dialect: org.hibernate.dialect.MySQL5Dialect
-
-#  rabbitmq:
-#    addresses: ${vcap.services.cloud-bus.credentials.http_api_uris:http://localhost:5672}
