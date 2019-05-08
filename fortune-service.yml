@@ -5,6 +5,10 @@
   spring:
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
+    cloud:
+      config:
+        discovery:
+          enabled: true
 #      database: MYSQL
 #    properties:
 #      hibernate:
