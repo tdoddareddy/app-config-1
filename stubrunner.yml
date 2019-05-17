@@ -1,0 +1,3 @@
+stubrunner:
+# please register the stubs in a real eureka instead of faking it
+  cloud.stubbed.discovery.enabled: true
